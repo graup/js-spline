@@ -77,7 +77,7 @@ var jsspline = jsspline || {};
         return point;
     };
     
-    Bezier = function(config) {
+    var Bezier = function(config) {
         var config = config || {};
         if(!config.steps){
             config.steps = 100;
